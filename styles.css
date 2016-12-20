@@ -24,6 +24,15 @@ h1 {
 
 }
 
+input {
+  width: 100%;
+}
+
+.scroll-list {
+  height: 400px;
+  overflow: scroll;
+}
+
 .button-bar {
   display: flex;
   flex-flow: row wrap;

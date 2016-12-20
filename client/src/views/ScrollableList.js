@@ -6,7 +6,6 @@ export default class ScrollableList extends React.Component {
   render() {
     return (
       <div className="scroll-list">
-        <p>Scrollable List Goes Here</p>
         <ul className="items">
           {
             Object
