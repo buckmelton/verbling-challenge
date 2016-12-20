@@ -4,9 +4,9 @@ export default class SearchBar extends React.Component {
 
   render() {
     return (
-      <div>
-        <p>Search Bar Goes Here</p>
-      </div>
+      <form>
+        <input type="text" placeholder="Search..." />
+      </form>
     );
   }
 

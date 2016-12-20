@@ -8,6 +8,10 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  text-align: center;
+}
+
 .filter-list {
 
 }
@@ -18,4 +22,14 @@ body {
 
 .search {
 
+}
+
+.button-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+button {
+  width: 80px;
 }
